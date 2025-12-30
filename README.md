@@ -6,6 +6,9 @@ Professional static website for Advanced Lab Solutions, a mineral processing lab
 
 This is a simple static website built with **HTML** and **CSS**. No build process or complex installation is required.
 
+to run locally :
+`python3 -m http.server 8000`
+
 1.  **Edit Content:** Open any `.html` file (e.g., `index.html`) in your editor and change the text within the tags.
 2.  **Edit Styles:** Open `styles.css` to modify colors, fonts, and layout.
 3.  **Images:** New images should be placed in `attached_assets/stock_images/`. To update an image on a page, change the `src` attribute in the HTML `<img>` tag or the `background-image` property in the inline style.
